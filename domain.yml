@@ -8,11 +8,202 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - am_thuc
+  - dac_san
+  - thuc_uong
+  - lua_chon_khac
+  - tours_dl
+  - ngay_le
+  - ngan_han
+  - dai_han
+  - hoi_nhom
+  - chu_de
+  - vi_vu_cuoi_tuan
+  - ho_tro_nguoi_nuoc_ngoai
+  - phien_dich
+  - dan_tours
+  - tu_van_dl
+  - kien_thuc_dl
+  - kinh_nghiem_dl
+  - cac_meo_hay
+  - cam_nang
+
+
+slots: {}
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
+  - text: |-
+      Chao ban. 
+      Minh la ChatBot Du Lich, minh co the giup duoc gi cho ban!!
+      - Dia diem du lich o Da Lat
+      - Dia diem an ngon, bo, re nhat danh cho ban
+      - Noi check-in siu xin xo con bo danh cho ban
+      - Cho o, cho nghi ly tuong, tho mong, view xin xo, gia ca hop ly ne
+    buttons:
+       - title: Am thuc Da Lat
+         payload: /am_thuc
+       - title: Tours Da Lat
+         payload: /tours_dl      
+       - title: Cho nguoi nuoc ngoai
+         payload: /ho_tro_nguoi_nuoc_ngoai     
+       - title: Kien thuc DL
+         payload: /kien_thuc_dl
+  utter_am_thuc:
+  - text: Cam on ban da quan tam den am thuc da lat, da lat co rat nhieu am thuc ngon tu thuc an den nuoc uong
+    buttons:
+       - title: Dac san DL
+         payload: /dac_san
+       - title: Thuc uong DL
+         payload: /thuc_uong
+       - title: Lua chon khac
+         payload: /lua_chon_khac
+       - title: Quay lai
+         payload: /greet
+  utter_dac_san:
+  - text: Dac san Da Lat da dang va phong phu cac loai, duoc ke den nhu Dau tay, Bo, ...v.v
+    buttons:
+       - title: Am thuc Da Lat
+         payload: /am_thuc
+       - title: Quay lai
+         payload: /greet
+  utter_thuc_uong:
+  - text: Thuc uong Da Lat da dang va phong phu cac loai, duoc ke den nhu ruou vang, cac loai sua ...v.v
+    buttons:
+       - title: Am thuc Da Lat
+         payload: /am_thuc
+       - title: Quay lai
+         payload: /greet
+  utter_lua_chon_khac:
+  - text: Cac lua chon khac danh cho ban
+    buttons:
+       - title: Am thuc Da Lat
+         payload: /am_thuc
+       - title: Quay lai
+         payload: /greet
+  utter_tours_dl:
+  - text: Cam on ban da quan tam den tours du lich da lat, da lat co rat nhieu su lua chon tour cho ngay nghi cua ban that vui ve
+    buttons:
+       - title: Ngay le
+         payload: /ngay_le
+       - title: Ngan han
+         payload: /ngan_han
+       - title: Dai han
+         payload: /dai_han
+       - title: Hoi nhom
+         payload: /hoi_nhom
+       - title: Chu de
+         payload: /chu_de
+       - title: Cuoi tuan
+         payload: /vi_vu_cuoi_tuan
+       - title: Quay lai
+         payload: /greet
+  utter_ngay_le:
+  - text: Tour ngay le danh cho ban. .............v.v
+    buttons:
+       - title: Tours Da Lat
+         payload: /tours_dl 
+       - title: Quay lai
+         payload: /greet
+  utter_ngan_han:
+  - text: Tour ngan han danh cho ban. .............v.v
+    buttons:
+       - title: Tours Da Lat
+         payload: /tours_dl 
+       - title: Quay lai
+         payload: /greet
+  utter_dai_han:
+  - text: Tour dai han danh cho ban. .............v.v
+    buttons:
+       - title: Tours Da Lat
+         payload: /tours_dl 
+       - title: Quay lai
+         payload: /greet
+  utter_hoi_nhom:
+  - text: Tour hoi nhom danh cho ban. .............v.v
+    buttons:
+       - title: Tours Da Lat
+         payload: /tours_dl 
+       - title: Quay lai
+         payload: /greet
+  utter_chu_de:
+  - text: Tour theo chu de danh cho ban. .............v.v
+    buttons:
+       - title: Tours Da Lat
+         payload: /tours_dl  
+       - title: Quay lai
+         payload: /greet
+  utter_vi_vu_cuoi_tuan:
+  - text: Tour cuoi tuan danh cho ban. .............v.v
+    buttons:
+       - title: Tours Da Lat
+         payload: /tours_dl
+       - title: Quay lai
+         payload: /greet
+  utter_ho_tro_nguoi_nuoc_ngoai:
+  - text: Cam on ban da quan tam den ho tro nguoi nuoc ngoai, khong chi ho tro nguoi Viet Nam, ChatBot toi con co the Ho tro cho nguoi nuoc ngoai den voi Du Lich Da Lat hihi
+    buttons:
+       - title: Phien dich
+         payload: /phien_dich
+       - title: Dan tours
+         payload: /dan_tours
+       - title: Tu van dl
+         payload: /tu_van_dl
+       - title: Quay lai
+         payload: /greet
+  utter_phien_dich:
+  - text: Chatbot toi se giup tim cho ban mot nguoi phien dich dinhkout, de ban khong phien muon va co tour du lich vui ve tai Da Lat nhe
+    buttons:
+       - title: Cho nguoi nuoc ngoai
+         payload: /ho_tro_nguoi_nuoc_ngoai
+       - title: Quay lai
+         payload: /greet
+  utter_dan_tours:
+  - text: Chatbot toi se giup tim cho ban mot nguoi dan tour dinhkout, de ban khong phien muon va co trai nghiem du lich vui ve tai Da Lat nhe
+    buttons:
+       - title: Cho nguoi nuoc ngoai
+         payload: /ho_tro_nguoi_nuoc_ngoai
+       - title: Quay lai
+         payload: /greet
+  utter_tu_van_dl:
+  - text: Chatbot toi se tu van cho ban tat tan tat ve du lich Da Lat, de ban co nhung trai nghiem tot nhat tai day nhe
+    buttons:
+       - title: Cho nguoi nuoc ngoai
+         payload: /ho_tro_nguoi_nuoc_ngoai
+       - title: Quay lai
+         payload: /greet
+  utter_kien_thuc_dl:
+  - text: Cam on ban da quan tam den kien thuc du lich da lat, chung toi se chia se cho ban cac kien thuc bo ich va can thiet cho chuyen du lich cua ban nheee
+    buttons:
+       - title: Kinh nghiem
+         payload: /kinh_nghiem_dl
+       - title: Cac meo
+         payload: /cac_meo_hay
+       - title: Cam nang
+         payload: /cam_nang
+       - title: Quay lai
+         payload: /greet
+  utter_kinh_nghiem_dl:
+  - text: Chatbot toi se chia se cho ban nhung kinh nghiem can thiet nhat cho chuyen di da lat cua ban nhe
+    buttons:
+       - title: Kien thuc DL
+         payload: /kien_thuc_dl
+       - title: Quay lai
+         payload: /greet
+  utter_cac_meo_hay:
+  - text: Chatbot toi se chia se cho ban nhung meo hay nhat ma ban nen biet cho chuyen di da lat cua ban
+    buttons:
+       - title: Kien thuc DL
+         payload: /kien_thuc_dl
+       - title: Quay lai
+         payload: /greet
+  utter_cam_nang:
+  - text: Chatbot toi se chia se cho ban nhung cam nang ma toi co, de ban co cai nhin da chieu ve Da Lat nhe
+    buttons:
+       - title: Kien thuc DL
+         payload: /kien_thuc_dl
+       - title: Quay lai greet
+         payload: /greet
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -24,7 +215,7 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: Tạm biệt bạn. Cảm ơn vì đã hỏi tôi nhé. ChatBotDuLich luôn sẵn sàng phục vụ bạn mọi lúc mọi nơi.
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
