@@ -39,4 +39,4 @@ networks:
   all:
     driver: bridge
     driver_opts:
-      com.docker.network.enable_ipv6: "true"
+      com.docker.network.enable.ipv6: "true"
