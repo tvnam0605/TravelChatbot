@@ -13,9 +13,9 @@ services:
     working_dir: /app
     build: "./"
     volumes:
-    - ./data: /app/data
-    - ./actions: /app/actions
-    - ./tests: /app/tests
+    - ./data:/app/data
+    - ./actions:/app/actions
+    - ./tests:/app/tests
     command: bash -c "rm -rf .rasa/* && rasa train && rasa run --enable-api --cors \"*\""
     ports:
     - '5006:5005'
