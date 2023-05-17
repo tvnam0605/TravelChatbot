@@ -1,7 +1,7 @@
 FROM python:3.7.7-stretch AS BASE
 
-RUN apt-get -y update \
-    && apt-get -y --assume-yes --no-install-recommends install \
+RUN apt-get update \
+    && apt-get --assume-yes --no-install-recommends install \
         build-essential \
         curl \
         git \

@@ -12,15 +12,13 @@ services:
     image: rasa-bot:latest
     working_dir: /app
     build: "./"
-    restart: always
     volumes:
-    - ./actions: /app/actions
     - ./data: /app/data
+    - ./actions: /app/actions
     - ./tests: /app/tests
-    command: bash -c "rm -rf .rasa/* && rasa train && rasa run --enable-api --cors \"*\" --debug"
+    command: bash -c "rm -rf .rasa/* && rasa train && rasa run --enable-api --cors \"*\""
     ports:
     - '5006:5005'
-    public: true
     networks:
     - all
 
@@ -28,11 +26,10 @@ services:
     image: rasa-bot:latest
     working_dir: /app
     build: "./"
-    restart: always
     volumes:
     - ./actions:/app/actions
     - ./utils:/app/utils
-    command: ["rasa", "run", "actions"]
+    command: bash -c "rasa run actions"
     ports:
     - '5055:5055'
     networks:
