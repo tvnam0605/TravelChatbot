@@ -1,6 +1,6 @@
 FROM python:3.7.7-stretch AS BASE
 
-RUN apt-get update \
+RUN apt-get -y update \
     && apt-get --assume-yes --no-install-recommends install \
         build-essential \
         curl \
