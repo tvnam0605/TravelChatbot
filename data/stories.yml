@@ -2,125 +2,43 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: greet
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
 
-- story: sad path 1
+- story: bye
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
+  - intent: bye
   - action: utter_goodbye
-
-- story: Hoi_ve_am_thuc
-  steps:
-  - intent: am_thuc
-  - action: utter_am_thuc
-
-- story: Hoi_ve_dac_san
-  steps:
-  - intent: dac_san
-  - action: utter_dac_san
-
-- story: Hoi_ve_thuc_uong
-  steps:
-  - intent: thuc_uong
-  - action: utter_thuc_uong
-
-- story: Hoi_ve_lua_chon_khac
-  steps:
-  - intent: lua_chon_khac
-  - action: utter_lua_chon_khac
-
-- story: Hoi_ve_Tours
-  steps:
-  - intent: tours_dl
-  - action: utter_tours_dl
-
-- story: Hoi_ve_tour_ngay_le
-  steps:
-  - intent: ngay_le
-  - action: utter_ngay_le
-
-- story: Hoi_ve_tour_ngan_han
-  steps:
-  - intent: ngan_han
-  - action: utter_ngan_han
   
-- story: Hoi_ve_tour_dai_han
+- story: find_1s_hotel
   steps:
-  - intent: dai_han
-  - action: utter_dai_han
-
-- story: Hoi_ve_tour_hoi_nhom
+  - intent: find_1start_hotel
+  - action: utter_hotel_1start
+- story: find_2s_hotel
   steps:
-  - intent: hoi_nhom
-  - action: utter_hoi_nhom
-
-- story: Hoi_ve_tour_chu_de
+  - intent: find_2start_hotel
+  - action: utter_hotel_2start
+  
+- story: find_3s_hotel
   steps:
-  - intent: chu_de
-  - action: utter_chu_de
+  - intent: find_3start_hotel
+  - action: utter_hotel_3start
 
-- story: Hoi_ve_tour_cuoi_tuan
+- story: find_4s_hotel
   steps:
-  - intent: vi_vu_cuoi_tuan
-  - action: utter_vi_vu_cuoi_tuan
-
-- story: Ho_tro_nguoi_nuoc_ngoai
+  - intent: find_4start_hotel
+  - action: utter_hotel_4start
+- story: find_homestay
   steps:
-  - intent: ho_tro_nguoi_nuoc_ngoai
-  - action: utter_ho_tro_nguoi_nuoc_ngoai
-
-- story: Ho_tro_phien_dich
+  - intent: find_homestay_near_center
+  - action: utter_homestay
+ - story: find_5s_hotel
   steps:
-  - intent: phien_dich
-  - action: utter_phien_dich
-
-- story: Ho_tro_dan_tours
+  - intent: find_5start_hotel
+  - action: utter_hotel_5start
+- story: find_acconmodation_bbq
   steps:
-  - intent: dan_tours
-  - action: utter_dan_tours
-
-- story: Ho_tro_tu_van_DL
-  steps:
-  - intent: tu_van_dl
-  - action: utter_tu_van_dl
-
-- story: Hoi_ve_kien_thuc_DL
-  steps:
-  - intent: kien_thuc_dl
-  - action: utter_kien_thuc_dl
-
-- story: Hoi_ve_kinh_nghiem_DL
-  steps:
-  - intent: kinh_nghiem_dl
-  - action: utter_kinh_nghiem_dl
-
-- story: Hoi_ve_cac_meo_DL
-  steps:
-  - intent: cac_meo_hay
-  - action: utter_cac_meo_hay
-
-- story: Hoi_ve_cam_nang_DL
-  steps:
-  - intent: cam_nang
-  - action: utter_cam_nang
-
+  -intent: find_accommodation_with_bbq_facilities
+  - action: utter_bbq
