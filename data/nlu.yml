@@ -16,6 +16,8 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - Chào
+    - chao
 
 - intent: goodbye
   examples: |
@@ -29,63 +31,164 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - Tạm biệt
+    - tam biet
+    - Hẹn gặp lại
+    - Hen gap lai
 
-- intent: affirm
+- intent: thanks
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
+    - Cảm ơn
+    - Rất biết ơn
+    - thanks
+    - thank you
+    - tks
+- intent: find_accommodation
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
+    - Tìm nơi ở
+    - Tìm chỗ ở
+    - Khách sạn Đà Lạt
+    - Lưu trú
+    - Homestay
+    - Glamping
+    - noi o
+    - luu tru
+    - khach san
+    - nha nghi
+- intent: find_1star_hotel
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - khách sạn một sao
+    - khách sạn 1 sao
+    - khach san mot sao
+- intent: find_2star_hotel
+  examples:
+    - khách sạn hai sao
+    - khách sạn 2 sao
+- intent: find_3star_hotel
+  examples:
+    - khách sạn ba sao
+    - khách sạn 3 sao
+- intent: find_4star_hotel
+  examples:
+    - khách sạn bốn sao
+    - khách sạn 4 sao
+    - khách sạn bon sao
+- intent: find_5star_hotel
+  examples: 
+    - khách sạn năm sao
+    - khách sạn 5 sao
+    - khách sạn nam sao
+- intent: find_accommodation_near_center
+  examples:
+    - Nơi ở gần trung tâm
+- intent: find_hotel_near_center
+  examples:
+    - Khách sạn gần trung tâm
+    - Khách sạn ở gần trung tâm thành phố
+    - Tìm khách sạn ở trung tâm
+    - Có khách sạn nào ở gần trung tâm không?
+    - khach san gan trung tam
+    - khach san o trung tam
+- intent: find_guesthouse_near_center
+  examples:
+    - Nhà nghỉ gần trung tâm
+    - Nhà nghỉ ở gần trung tâm thành phố
+    - Cần tìm nhà nghỉ ở trung tâm
+    - Tìm nơi ở gần trung tâm
+    - nha nghi gan trung tam
+    - nha nghi o trung tam
+- intent: find_homestay_near_center
+  examples:
+    - Homestay gần trung tâm
+    - Tìm homestay ở gần trung tâm thành phố
+    - Cần homestay ở trung tâm
+    - Bạn có homestay nào ở gần trung tâm không?
+    - homestay gan trung tam
+    - home gan trung tam
+    - home o trung tam
+- intent: find_hotel_with_beautiful_view
+  examples:
+    - Tìm khách sạn có view đẹp
+    - Cần khách sạn với tầm nhìn đẹp
+    - Khách sạn nào có cảnh đẹp xung quanh?
+    - Tìm chỗ ở với view tuyệt vời
+    - khach san view dep
+    - khach san co view
+- intent: find_cloud_hunting_accommodation
+  examples:
+    - Chỗ ở săn mây
+    - Homestay có không gian săn mây
+    - Tìm nơi ở với trải nghiệm săn mây
+    - Khách sạn gần khu vực săn mây
+    - san may
+    - cho o san may
+- intent: find_hotel_with_pool
+  examples:
+    - Tìm khách sạn có hồ bơi
+    - Khách sạn với bể bơi
+    - Homestay có hồ nước
+    - Chỗ ở có bể bơi
+    - be boi
+    - ho boi
+- intent: find_hotel_with_breakfast_service
+  examples:
+    - Tìm khách sạn có dịch vụ ăn sáng
+    - Khách sạn cung cấp bữa sáng
+    - Homestay có dịch vụ ăn sáng không?
+    - Chỗ ở có tiện ích ăn sáng
+    - an sang
+    - bua sang
+    - buffet sang
+- intent: find_resort
+  examples:
+    - Tìm resort
+    - Resort nào đẹp nhất?
+- intent: find_glamping_site
+  examples:
+    - Tìm khu glamping
+    - Nơi glamping gần đây
+    - Chỗ ở glamping ở đâu?
+    - Tìm khu cắm trại sang trọng
+    - glamping trung tam
+    - cam trai
+- intent: find_affordable_accommodation
+  examples:
+    - Tìm chỗ ở giá rẻ
+    - Chỗ ở phải rẻ
+    - Homestay giá bình dân
+    - Khách sạn giá phải chăng
+    - gia re
+    - gia binh dan
+    - giá hạt dẻ
+    - gia hat de
+- intent: book_accommodation
+  examples:
+    - Làm thế nào để đặt phòng?
+    - Đặt cho tôi một phòng khách sạn
+    - Hỗ trợ tôi với việc đặt chỗ ở
+    - cach dat phong
+- intent: check_checkin_checkout_time
+  examples:
+    - Giờ nhận và trả phòng là gì?
+    - Khi nào có thể nhận phòng?
+    - Giờ trả phòng là khi nào?
+    - Chỗ ở có giờ nhận trả phòng linh hoạt không?
+    - nhan phong
+    - tra phong
+    - thoi gian
+- intent: find_accommodation_with_meeting_facilities
+  examples:
+    - Chỗ ở hỗ trợ buổi hội thảo
+    - Tìm khách sạn có phòng họp
+    - Homestay có tiện nghi tổ chức sự kiện
+    - Chỗ ở hỗ trợ hội nghị
+    - cuoc hop
+    - hoi thao
+    - to chuc su kien
+- intent: find_accommodation_with_bbq_facilities
+  examples: 
+    - Tìm chỗ ở hỗ trợ tổ chức BBQ
+    - Khách sạn có tiện ích BBQ
+    - Homestay có khu vực BBQ
+    - Chỗ ở hỗ trợ tổ chức buổi nướng BBQ
+    - nuong
