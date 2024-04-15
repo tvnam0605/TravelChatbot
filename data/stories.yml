@@ -42,3 +42,67 @@ stories:
   steps:
   -intent: find_accommodation_with_bbq_facilities
   - action: utter_bbq
+- story: find_hotel_near_xuanhuong_lake
+  steps:
+	- intent: find_hotel_near_xuanhuonglake
+	- action: utter_hotelnearxuanhuonglake
+- story: find_homesay_near_xuanhuong_lake
+steps:
+	- intent: find_homesay_near_xuanhuonglake
+	- action: utter_homestaynearxuanhuonglake
+- story: find_accommodation_near_xuanhuong_lake
+  steps:
+	- intent: accommodation_near_xuanhuonglake
+	- action: utter_accommodationnearxuanhuonglake
+- story: find_hotel_near_valley_of_love
+steps: 
+	- intent:find_hotel_near_valley_of_love
+	- action: utter_hotelnearvalleylove
+- story: find_homestay_near_valleyoflove
+  steps: 
+	- intent: find_homestay_near_valley_of_love
+	- action: utter_homestaynearvalleylove
+- story: find_homestay_near_valleyoflove
+  steps: 
+	- intent: find_homestay_near_valley_of_love
+	- action: utter_homestaynearvalleylove
+- story: find_accommodation_near_valleyoflove
+steps: 
+	- intent:accommodation_near_valley_of_love
+	- action: utter_accommodationnearvalleylove
+- story: find_hotel_nearrooster
+steps: 
+	- intent:find_hotel_near_rooster
+	- action: utter_hotelnearrooster
+- story: find_homestay_nearrooster
+  steps: 
+	- intent: find_homestay_near_rooster
+	- action: utter_homestaynearrooster
+- story: find_accommodation_nearrooster
+steps: 
+	- intent:accommodation_near_rooster
+	- action: utter_accommodationnearrooster
+- story: find_hotel_near_flower_park
+steps: 
+	- intent:find_hotel_near_flowerpark
+	- action: utter_hotelnearflowerpark
+- story: find_homestay_near_flower_park
+  steps: 
+	- intent: find_homestay_near_flowerpark
+	- action: utter_homestaynearflowerpark
+- story: find_accommodation_near_flower_park
+  steps: 
+	- intent: accommodation_near_flowerpark
+	- action: utter_accommodationnearflowerpark
+- story: find_hotel_forestview
+  steps: 
+	- intent: find_hotel_with_forest_view
+	- action: utter_hotel_with_forestview
+- story: find_homestay_forestview
+  steps: 
+	- intent: find_homestay_with_forest_view
+	- action: utter_homestay_with_forestview
+- story: find_accommodation_forestview
+  steps: 
+	- intent: accommodation_with_forest_view
+	- action: utter_accommodation_with_forestview
