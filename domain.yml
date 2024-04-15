@@ -37,6 +37,21 @@ intents:
   - check_checkin_checkout_time
   - find_accommodation_with_meeting_facilities
   - find_accommodation_with_bbq_facilities
+  - find_hotel_near_xuanhuonglake
+  - find_homesay_near_xuanhuonglake
+  - accommodation_near_xuanhuonglake
+  - find_hotel_near_valley_of_love
+  - find_homestay_near_valley_of_love
+  - accommodation_near_valley_of_love
+  - find_hotel_near_rooster
+  - find_homestay_near_rooster
+  - accommodation_near_rooster
+  - find_hotel_near_flowerpark
+  - find_homestay_near_flowerpark
+  - accommodation_near_flowerpark
+  - find_hotel_with_forest_view
+  - find_homestay_with_forest_view
+  - accommodation_with_forest_view
 
 actions:
   - utter_greet
@@ -61,7 +76,21 @@ actions:
   - utter_breakfast
   - utter_lunch
   - utter_dinner
-
+  - utter_hotelnearxuanhuonglake
+  - utter_homestaynearxuanhuonglake
+  - utter_accommodationnearxuanhuonglake
+  - utter_hotelnearvalleylove
+  - utter_homestaynearvalleylove
+  - utter_accommodationnearvalleylove
+  - utter_hotelnearrooster
+  - utter_homestaynearrooster
+  - utter_accommodationnearrooster
+  - utter_hotelnearflowerpark
+  - utter_homestaynearflowerpark
+  - utter_accommodationnearflowerpark
+  - utter_hotel_with_forestview
+  - utter_homestay_with_forestview
+  - utter_accommodation_with_forestview
 slots: {}
 
 responses:
@@ -292,4 +321,33 @@ responses:
   Địa chỉ- 30 Đặng Thái Thân, phường 3, Đà Lạt, Lâm Đồng
   - Tiệm nướng Mậu Dịch
   Địa chỉ- 28b Trần Hưng Đạo - p10
-  
+  utter_hotelnearxuanhuonglake:
+  - text: - khách sạn gần hồ xuân hương
+  utter_homestaynearxuanhuonglake:
+  - text: - homestay gần hồ xuân hương
+  utter_accommodationnearxuanhuonglake:
+  - text: - nơi ở gần hồ xuân hương
+  utter_hotelnearvalleylove:
+  - text: - khách sạn gần thung lũng tình yêu
+  utter_homestaynearvalleylove:
+  - text: - homestay gần thung lũng tình yêu
+  utter_accommodationnearvalleylove:
+  - text: - chỗ ở gần thung lũng tình yêu
+  utter_hotelnearrooster:
+  - text: - khách sạn gần nhà thờ
+  utter_homestaynearrooster:
+  - text: homestay gần nhà thờ
+  utter_accommodationnearrooster:
+  - text: - chỗ ở gần nhà thờ
+  utter_hotelnearflowerpark:
+  - text: - khách sạn gần vườn hoa
+  utter_homestaynearflowerpark:
+  - text: - homestay gần vườn hoa
+  utter_accommodationnearflowerpark:
+  - text: - nơi ở gần vườn hoa
+  utter_hotel_with_forestview:
+  - text: - khách sạn view rừng
+  utter_homestay_with_forestview:
+  - text: - homestay view rừng
+  utter_accommodation_with_forestview:
+  - text: - nơi ở view rừng
