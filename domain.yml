@@ -95,259 +95,295 @@ slots: {}
 
 responses:
   utter_greet:
-  - text: |-
-      Chào bạn. 
-      Tôi là chatbot được thiết kế để cung cấp cho bạn một số thông tin về du lịch như:
-      - Các địa điểm du lịch tại Đà Lạt
-      - Những khách sạn, nhà nghỉ hay homestay tại Đà Lạt
-      - Mẹo khi đi du lịch
-      - Kinh nghiệm khi đi du lịch
-      - Ẩm thực ở Đà Lạt
-      - Các tours du lịch
-      - Các dịch vụ hỗ trợ du khách
-  - text: Chào bạn, tôi là chatbot hỗ trợ du lịch, bạn cần thông tin gì
-  - text: Xin chào, tôi là chatbot, tôi có thể giúp gì cho bạn ngày hôm nay
-  - text: Xin chào, tôi là chatbot được tạo ra với mục đích hỗ trợ các vấn đề về du lịch, bạn có câu hỏi gì không?
-  - text: Tôi tên Du Lịch Bot. Rất vui được hỗ trợ bạn.
+    - text: |-
+        Chào bạn. 
+        Tôi là chatbot được thiết kế để cung cấp cho bạn một số thông tin về du lịch như:
+        - Các địa điểm du lịch tại Đà Lạt
+        - Những khách sạn, nhà nghỉ hay homestay tại Đà Lạt
+        - Mẹo khi đi du lịch
+        - Kinh nghiệm khi đi du lịch
+        - Ẩm thực ở Đà Lạt
+        - Các tours du lịch
+        - Các dịch vụ hỗ trợ du khách
+    - text: Chào bạn, tôi là chatbot hỗ trợ du lịch, bạn cần thông tin gì?
+    - text: Xin chào, tôi là chatbot, tôi có thể giúp gì cho bạn ngày hôm nay?
+    - text: Xin chào, tôi là chatbot được tạo ra với mục đích hỗ trợ các vấn đề về du lịch, bạn có câu hỏi gì không?
+    - text: Tôi tên Du Lịch Bot. Rất vui được hỗ trợ bạn.
   utter_info:
-  - text: |-
-  - text: Tôi là chatbot hỗ trợ du lịch ở Đà Lạt, bạn có thể hỏi bất cứ vấn đề nào bạn quan tâm, tôi sẽ giải đáp cho bạn
-  - text: Bạn có câu hỏi nào về chuyến đi của mình, tôi sẽ giải đáp giúp bạn
-  - text: Nếu sắp tới bạn có chuyến du lịch ở Đà Lạt mà chưa chọn được những địa điểm vui chơi, ăn uống, đi lại,... tôi có thể giải đáp cho bạn
+    - text: Tôi là chatbot hỗ trợ du lịch ở Đà Lạt, bạn có thể hỏi bất cứ vấn đề nào bạn quan tâm, tôi sẽ giải đáp cho bạn.
+    - text: Bạn có câu hỏi nào về chuyến đi của mình, tôi sẽ giải đáp giúp bạn.
+    - text: Nếu sắp tới bạn có chuyến du lịch ở Đà Lạt mà chưa chọn được những địa điểm vui chơi, ăn uống, đi lại,... tôi có thể giải đáp cho bạn.
   utter_introduction:
-  - text: Đà Lạt là một thành phố nằm ở cao nguyên Lâm Đồng, miền Trung Việt Nam. Thành phố này được biết đến với biệt danh ""thành phố mùa xuân vĩnh cửu"" hay ""thành phố mùa xuân"" do khí hậu mát mẻ quanh năm và vẻ đẹp thiên nhiên tuyệt vời. Dưới đây là một số điểm đặc biệt và đặc trưng về Đà Lạt:
-  1. Khí hậu-  Đà Lạt có khí hậu ôn hòa, mát mẻ quanh năm, là nơi lý tưởng để tránh nóng trong mùa hè. Nhiệt độ thấp hơn so với các vùng lân cận, với sự chênh lệch giữa ban ngày và ban đêm.
-  2. Thiên nhiên đẹp-  Thành phố này được bao quanh bởi những cảnh đẹp ngoạn mục như hồ Xuân Hương, thác Prenn, hồ Tuyền Lâm, và rừng thông mát lạnh. Các vườn hoa và khu du lịch thiên nhiên như Thung lũng Tình Yêu, Đồi Mộng Mơ cũng là những điểm đến hấp dẫn.
-  3. Kiến trúc độc đáo-  Đà Lạt nổi tiếng với kiến trúc độc đáo, đặc biệt là những biệt thự cổ điển của thời kỳ thuộc địa Pháp
-  4. Đồ ăn ngon-  Du khách cũng có thể thưởng thức đặc sản ngon lành của Đà Lạt như bánh mì xíu mại, bánh tráng nướng, rau củ và hoa quả tươi ngon do khí hậu đặc biệt của thành phố.
-  5. Học viện Nông nghiệp Đà Lạt-  Đà Lạt là trung tâm nông nghiệp của Việt Nam, và Học viện Nông nghiệp Đà Lạt chính là một trong những trung tâm đào tạo uy tín trong lĩnh vực này.
-  6. Du lịch mạo hiểm-  Ngoài việc thưởng thức cảnh đẹp tự nhiên, du khách cũng có cơ hội tham gia các hoạt động mạo hiểm như leo núi, đi dã ngoại, đua thuyền kayak trên hồ.
-  Đà Lạt không chỉ là điểm đến du lịch lý tưởng mà còn là nơi lý tưởng để tận hưởng cuộc sống bình dị giữa thiên nhiên hùng vĩ.
+    - text: |-
+        Đà Lạt là một thành phố nằm ở cao nguyên Lâm Đồng, miền Trung Việt Nam. Thành phố này được biết đến với biệt danh "thành phố mùa xuân vĩnh cửu" hay "thành phố mùa xuân" do khí hậu mát mẻ quanh năm và vẻ đẹp thiên nhiên tuyệt vời. Dưới đây là một số điểm đặc biệt và đặc trưng về Đà Lạt:
+        1. Khí hậu- Đà Lạt có khí hậu ôn hòa, mát mẻ quanh năm, là nơi lý tưởng để tránh nóng trong mùa hè. Nhiệt độ thấp hơn so với các vùng lân cận, với sự chênh lệch giữa ban ngày và ban đêm.
+        2. Thiên nhiên đẹp- Thành phố này được bao quanh bởi những cảnh đẹp ngoạn mục như hồ Xuân Hương, thác Prenn, hồ Tuyền Lâm, và rừng thông mát lạnh. Các vườn hoa và khu du lịch thiên nhiên như Thung lũng Tình Yêu, Đồi Mộng Mơ cũng là những điểm đến hấp dẫn.
+        3. Kiến trúc độc đáo- Đà Lạt nổi tiếng với kiến trúc độc đáo, đặc biệt là những biệt thự cổ điển của thời kỳ thuộc địa Pháp.
+        4. Đồ ăn ngon- Du khách cũng có thể thưởng thức đặc sản ngon lành của Đà Lạt như bánh mì xíu mại, bánh tráng nướng, rau củ và hoa quả tươi ngon do khí hậu đặc biệt của thành phố.
+        5. Học viện Nông nghiệp Đà Lạt- Đà Lạt là trung tâm nông nghiệp của Việt Nam, và Học viện Nông nghiệp Đà Lạt chính là một trong những trung tâm đào tạo uy tín trong lĩnh vực này.
+        6. Du lịch mạo hiểm- Ngoài việc thưởng thức cảnh đẹp tự nhiên, du khách cũng có cơ hội tham gia các hoạt động mạo hiểm như leo núi, đi dã ngoại, đua thuyền kayak trên hồ.
+        Đà Lạt không chỉ là điểm đến du lịch lý tưởng mà còn là nơi lý tưởng để tận hưởng cuộc sống bình dị giữa thiên nhiên hùng vĩ.
   utter_history:
-  - text: Lịch sử của Đà Lạt có liên quan đến sự phát triển của thành phố từ những năm đầu thế kỷ 20. Dưới đây là một tóm tắt về lịch sử của Đà Lạt:
-  1. Thời kỳ thuộc địa Pháp (1893-1954) 
-   - Năm 1893, nhà thám hiểm Alexandre Yersin, người đã phát hiện ra vi khuẩn Yersinia pestis gây dịch hạch, đặt chân đến vùng núi cao Đà Lạt và đề xuất sự phát triển của nơi này như một trung tâm nghỉ dưỡng.
-   - Thành lập bởi các nhà thám hiểm và quân đội Pháp, Đà Lạt trở thành nơi nghỉ dưỡng dành cho quan chức và gia đình họ trong thời kỳ thuộc địa.
-  2. Phát triển dưới thời Bảo Đại (1930-1954)
-   - Vào thập kỷ 1930, vua Bảo Đại của nhà Nguyễn chọn Đà Lạt làm nơi nghỉ dưỡng hè, xây dựng nhiều biệt thự và dinh thự, tạo nên kiến trúc độc đáo mang đậm dấu ấn của thời kỳ đó.
-   - Trong thời gian này, Đà Lạt trở thành điểm đến cho giới tư sản và quan chức, với các công trình như Dinh Bảo Đại, Dinh Trấn Lệ, và nhiều khu vườn hoa, hồ, và công viên được xây dựng.
-  3. Sau Chiến tranh (1954-1975)
-   - Sau sự kiện Điện Biên Phủ năm 1954 và cuộc chiến tranh Việt Nam, Đà Lạt tiếp tục phát triển như là một điểm du lịch nổi tiếng trong nước.
-   - Trong thời kỳ chiến tranh, Đà Lạt trở thành nơi tránh nhiệt và nghỉ ngơi cho nhiều gia đình.
-  4. Thời kỳ sau chiến tranh (1975-trở đi)
-   - Sau khi Việt Nam thống nhất vào năm 1975, Đà Lạt tiếp tục phát triển và trở thành một trong những điểm đến du lịch quan trọng của Việt Nam.
-   - Đà Lạt ngày nay không chỉ thu hút du khách với cảnh đẹp tự nhiên và kiến trúc lịch sử mà còn với nhiều hoạt động giải trí, thể thao và văn hóa.
-  Lịch sử của Đà Lạt phản ánh sự kết hợp giữa vẻ đẹp thiên nhiên ngoạn mục và sự phát triển văn hóa, kiến trúc dưới ảnh hưởng của nhiều thời kỳ lịch sử khác nhau.
+    - text: |-
+        Lịch sử của Đà Lạt có liên quan đến sự phát triển của thành phố từ những năm đầu thế kỷ 20. Dưới đây là một tóm tắt về lịch sử của Đà Lạt:
+        1. Thời kỳ thuộc địa Pháp (1893-1954) 
+         - Năm 1893, nhà thám hiểm Alexandre Yersin, người đã phát hiểm ra vi khuẩn Yersinia pestis gây dịch hạch, đặt chân đến vùng núi cao Đà Lạt và đề xuất sự phát triển của nơi này như một trung tâm nghỉ dưỡng.
+         - Thành lập bởi các nhà thám hiểm và quân đội Pháp, Đà Lạt trở thành nơi nghỉ dưỡng dành cho quan chức và gia đình họ trong thời kỳ thuộc địa.
+        2. Phát triển dưới thời Bảo Đại (1930-1954)
+         - Vào thập kỷ 1930, vua Bảo Đại của nhà Nguyễn chọn Đà Lạt làm nơi nghỉ dưỡng hè, xây dựng nhiều biệt thự và dinh thự, tạo nên kiến trúc độc đáo mang đậm dấu ấn của thời kỳ đó.
+         - Trong thời gian này, Đà Lạt trở thành điểm đến cho giới tư sản và quan chức, với các công trình như Dinh Bảo Đại, Dinh Trấn Lệ, và nhiều khu vườn hoa, hồ, và công viên được xây dựng.
+        3. Sau Chiến tranh (1954-1975)
+         - Sau sự kiện Điện Biên Phủ năm 1954 và cuộc chiến tranh Việt Nam, Đà Lạt tiếp tục phát triển như là một điểm du lịch nổi tiếng trong nước.
+         - Trong thời kỳ chiến tranh, Đà Lạt trở thành nơi tránh nhiệt và nghỉ ngơi cho nhiều gia đình.
+        4. Thời kỳ sau chiến tranh (1975-trở đi)
+         - Sau khi Việt Nam thống nhất vào năm 1975, Đà Lạt tiếp tục phát triển và trở thành một trong những điểm đến du lịch quan trọng của Việt Nam.
+         - Đà Lạt ngày nay không chỉ thu hút du khách với cảnh đẹp tự nhiên và kiến trúc lịch sử mà còn với nhiều hoạt động giải trí, thể thao và văn hóa.
+          Lịch sử của Đà Lạt phản ánh sự kết hợp giữa vẻ đẹp thiên nhiên ngoạn mục và sự phát triển văn hóa, kiến trúc dưới ảnh hưởng của nhiều thời kỳ lịch sử khác nhau.
   utter_souvenir: 
-  - text: Đà Lạt là một địa điểm du lịch nổi tiếng tại Việt Nam, và bạn có thể tìm thấy nhiều loại quà lưu niệm độc đáo và đặc trưng tại đây. Dưới đây là một số gợi ý cho quà lưu niệm khi bạn thăm Đà Lạt:
-    1. Đồ handmade từ da lộn và len
-    2. Các loại hoa và sản phẩm từ hoa
-    3. Trà và cà phê Đà Lạt
-    4. Sản phẩm từ dâu
-    5. Sản phẩm về thủ công mỹ nghệ
-    6. Đồ lụa và vải dân dụng
-    Nhớ kiểm tra các cửa hàng và chợ địa phương để tìm được những món quà độc đáo và đặc trưng của Đà Lạt.
+  - text: |-
+      Đà Lạt là một địa điểm du lịch nổi tiếng tại Việt Nam, và bạn có thể tìm thấy nhiều loại quà lưu niệm độc đáo và đặc trưng tại đây. Dưới đây là một số gợi ý cho quà lưu niệm khi bạn thăm Đà Lạt:
+        1. Đồ handmade từ da lộn và len
+        2. Các loại hoa và sản phẩm từ hoa
+        3. Trà và cà phê Đà Lạt
+        4. Sản phẩm từ dâu
+        5. Sản phẩm về thủ công mỹ nghệ
+        6. Đồ lụa và vải dân dụng
+        Nhớ kiểm tra các cửa hàng và chợ địa phương để tìm được những món quà độc đáo và đặc trưng của Đà Lạt.
   utter_souvenir_location:
-  - text: Dưới đây là một số cửa hàng bạn có thể ghé thăm khi muốn mua quà lưu niệm
-    1. Đồ handmade từ da lộn và len
-    - Labata- 20 Đường Trương Công Định
-    - Đà Lạt handmade- 14 Đường Mai Xuân Thưởng
-    - Tiệm Nhiên Handmade- Tổ 4, Đường Trương Văn Hoàn
-    2. Các loại hoa và sản phẩm từ hoa
-    - Shop hoa tươi Rose Flower Đà Lạt-  53 Hai Bà Trưng, Phường 6, Đà Lạt.
-    - Dalat Hasfarm – shop tươi hoa Đà Lạt- Số 1, Nguyễn Thị Minh Khai, Đà Lạt.
-    - Shop Tâm Huy – shop hoa Đà Lạt- 05 Phan Đình Phùng, Phường 1, Thành Phố Đà Lạt.
-    3. Trà và cà phê Đà Lạt
-    # Trà atisô và trà thảo dược
-    - L’ang Farm- đường Nguyễn Thị Minh Khai, Đà Lạt
-    - Cửa hàng Công ty Dược Lâm Đồng- Khu Hòa Bình, Đà Lạt
-    - Showroom Trà Ngọc Duy- 06 Tăng Bạt Hổ, Đà Lạt
-    - Showroom Trà Vĩnh Tiến- 01 Lê Hồng Phong, Đà Lạt
-    - Trà Cầu Đất- thôn Phát Chi, Xuân Trường, Đà Lạt
-    # Cà phê
-    - Cà phê Lễ Ký
-    Phan Đình Phùng, Đà Lạt
-    Khu Hòa Bình, Đà Lạt
-    - Cà phê Long Triều- 5A Lê Lai, Đà Lạt
-    - Cà phê Nghiêm Bá Thi- 1C Nguyễn Khuyến, Đà Lạt
-    4. Sản phẩm từ dâu
-    - Chợ Đà Lạt- đường Nguyễn Thị Minh Khai, phường 1, thành phố Đà Lạt
-    - Cửa hàng Langfarm- số 1B đường Hoàng Văn Thụ, phường 5, thành phố Đà Lạt
-    - Đặc sản Đà Lạt - Thuỷ Tiên- Chợ Mới, Đà Lạt Center, thành phố Đà Lạt
-    - Đặc sản Đà Lạt DaLaVi- 27/6E Yersin, phường 10, Đà Lạt
-    5. Sản phẩm về thủ công mỹ nghệ
-    - Dalat handicraft- K2/3 Đường Nguyễn Trung Trực
-    - Hàng thủ công mỹ nghệ từ trái thông khô Đà Lạt- 19 Đường Đặng Thái Thân
-    - Điêu Khắc Đá - Thủ Công Mỹ Nghệ Nguyên Sy- 12 Đường Nguyễn Chí Thanh
-    6. Đồ lụa và vải dân dụng
-    - Chợ Đà Lạt- ường Nguyễn Thị Minh Khai, phường 1, thành phố Đà Lạt
+  - text: |-
+      Dưới đây là một số cửa hàng bạn có thể ghé thăm khi muốn mua quà lưu niệm
+        1. Đồ handmade từ da lộn và len
+        - Labata- 20 Đường Trương Công Định
+        - Đà Lạt handmade- 14 Đường Mai Xuân Thưởng
+        - Tiệm Nhiên Handmade- Tổ 4, Đường Trương Văn Hoàn
+        2. Các loại hoa và sản phẩm từ hoa
+        - Shop hoa tươi Rose Flower Đà Lạt-  53 Hai Bà Trưng, Phường 6, Đà Lạt.
+        - Dalat Hasfarm – shop tươi hoa Đà Lạt- Số 1, Nguyễn Thị Minh Khai, Đà Lạt.
+        - Shop Tâm Huy – shop hoa Đà Lạt- 05 Phan Đình Phùng, Phường 1, Thành Phố Đà Lạt.
+        3. Trà và cà phê Đà Lạt
+        # Trà atisô và trà thảo dược
+        - L’ang Farm- đường Nguyễn Thị Minh Khai, Đà Lạt
+        - Cửa hàng Công ty Dược Lâm Đồng- Khu Hòa Bình, Đà Lạt
+        - Showroom Trà Ngọc Duy- 06 Tăng Bạt Hổ, Đà Lạt
+        - Showroom Trà Vĩnh Tiến- 01 Lê Hồng Phong, Đà Lạt
+        - Trà Cầu Đất- thôn Phát Chi, Xuân Trường, Đà Lạt
+        # Cà phê
+        - Cà phê Lễ Ký
+        Phan Đình Phùng, Đà Lạt
+        Khu Hòa Bình, Đà Lạt
+        - Cà phê Long Triều- 5A Lê Lai, Đà Lạt
+        - Cà phê Nghiêm Bá Thi- 1C Nguyễn Khuyến, Đà Lạt
+        4. Sản phẩm từ dâu
+        - Chợ Đà Lạt- đường Nguyễn Thị Minh Khai, phường 1, thành phố Đà Lạt
+        - Cửa hàng Langfarm- số 1B đường Hoàng Văn Thụ, phường 5, thành phố Đà Lạt
+        - Đặc sản Đà Lạt - Thuỷ Tiên- Chợ Mới, Đà Lạt Center, thành phố Đà Lạt
+        - Đặc sản Đà Lạt DaLaVi- 27/6E Yersin, phường 10, Đà Lạt
+        5. Sản phẩm về thủ công mỹ nghệ
+        - Dalat handicraft- K2/3 Đường Nguyễn Trung Trực
+        - Hàng thủ công mỹ nghệ từ trái thông khô Đà Lạt- 19 Đường Đặng Thái Thân
+        - Điêu Khắc Đá - Thủ Công Mỹ Nghệ Nguyên Sy- 12 Đường Nguyễn Chí Thanh
+        6. Đồ lụa và vải dân dụng
+        - Chợ Đà Lạt- ường Nguyễn Thị Minh Khai, phường 1, thành phố Đà Lạt
   utter_tourspot_free:
-  - text: - Hồ Xuân Hương: Nằm ngay trung tâm thành phố, Hồ Xuân Hương là địa điểm du lịch nổi tiếng nhất Đà Lạt. Du khách có thể đi dạo quanh hồ, ngắm cảnh, hoặc thuê xe đạp đôi để vi vu trên bờ hồ. 
-  - Chợ Đà Lạt- Khu chợ sầm uất với nhiều gian hàng bán đặc sản Đà Lạt, trái cây, hoa tươi, và quà lưu niệm. Du khách có thể tìm thấy nhiều món đồ độc đáo tại đây. 
-  - Đồi chè Cầu Đất- Nằm cách trung tâm thành phố khoảng 25km, đồi chè Cầu Đất là điểm đến lý tưởng cho những ai yêu thích thiên nhiên. Du khách có thể đi dạo trên đồi chè, chụp ảnh, và tận hưởng bầu không khí trong lành. 
-  - Thiền Viện Trúc Lâm- Nằm trên ngọn đồi hướng ra Hồ Tuyền Lâm, Thiền Viện Trúc Lâm là nơi thanh tịnh và yên bình. Du khách có thể tham quan kiến trúc độc đáo của thiền viện, cầu bình an, và ngắm cảnh hồ Tuyền Lâm. 
-  Ngoài ra, du khách cũng có thể tham quan miễn phí một số địa điểm khác như
-  - Quảng trường Lâm Viên
-  - Nhà thờ Domaine de Marie
-  - Trường Cao đẳng Sư phạm Đà Lạt
-  - Nhà thờ con gà
-  - Chùa Linh Phước
-  - Đồi thông hai mộ"
+  - text: |- 
+      Hồ Xuân Hương: Nằm ngay trung tâm thành phố, Hồ Xuân Hương là địa điểm du lịch nổi tiếng nhất Đà Lạt. Du khách có thể đi dạo quanh hồ, ngắm cảnh, hoặc thuê xe đạp đôi để vi vu trên bờ hồ. 
+      - Chợ Đà Lạt- Khu chợ sầm uất với nhiều gian hàng bán đặc sản Đà Lạt, trái cây, hoa tươi, và quà lưu niệm. Du khách có thể tìm thấy nhiều món đồ độc đáo tại đây. 
+      - Đồi chè Cầu Đất- Nằm cách trung tâm thành phố khoảng 25km, đồi chè Cầu Đất là điểm đến lý tưởng cho những ai yêu thích thiên nhiên. Du khách có thể đi dạo trên đồi chè, chụp ảnh, và tận hưởng bầu không khí trong lành. 
+      - Thiền Viện Trúc Lâm- Nằm trên ngọn đồi hướng ra Hồ Tuyền Lâm, Thiền Viện Trúc Lâm là nơi thanh tịnh và yên bình. Du khách có thể tham quan kiến trúc độc đáo của thiền viện, cầu bình an, và ngắm cảnh hồ Tuyền Lâm. 
+      Ngoài ra, du khách cũng có thể tham quan miễn phí một số địa điểm khác như
+      - Quảng trường Lâm Viên
+      - Nhà thờ Domaine de Marie
+      - Trường Cao đẳng Sư phạm Đà Lạt
+      - Nhà thờ con gà
+      - Chùa Linh Phước
+      - Đồi thông hai mộ
   utter_tourspot_nonfree:
-  - text: -  Núi Langbiang: 50.000 VND/Người 
-  - Thung lũng tình yêu- 250.000 VND/Người
-  - Vườn hoa thành phố Đà Lạt- 100.000 VND/Người
-  - Đường hầm đất sét- 120.000 VND/Người
-  - Vườn hoa Cẩm Tú Cầu Đà Lạt- 60.000 VND/Người
-  - Làng hoa Vạn Thành- 40.000 VND/Người"
+  - text: |-  
+      Núi Langbiang: 50.000 VND/Người 
+      - Thung lũng tình yêu- 250.000 VND/Người
+      - Vườn hoa thành phố Đà Lạt- 100.000 VND/Người
+      - Đường hầm đất sét- 120.000 VND/Người
+      - Vườn hoa Cẩm Tú Cầu Đà Lạt- 60.000 VND/Người
+      - Làng hoa Vạn Thành- 40.000 VND/Người"
   utter_tour: 
-  - text: - DU LỊCH ĐÀ LẠT - SAMTEN HILLS - PUPPY FARM - LANGBIANG - GALLERY LA CHOCOTEA - THÁC DAMBRITP: Giá từ 3.879.000 VND/Người
-  - DU LỊCH ĐÀ LẠT - MONGO LAND - ĐỒI CHÈ CẦU ĐẤT - CHÙA LINH PHƯỚC - THÁC DATANLA- Giá từ 3.979.000 VND/Người
-  Ngoài ra còn một số tour du lịch liên tỉnh
-  - DU LỊCH NHA TRANG - ĐÀ LẠT TP. HỒ CHÍ MINH - ĐÀ LẠT | NHA TRANG
-  - DU LỊCH PHAN THIẾT - ĐÀ LẠT TP. HỒ CHÍ MINH - PHAN THIẾT | ĐÀ LẠT
-  Bạn có thể xem thêm tour ở- link
+  - text: |- 
+      DU LỊCH ĐÀ LẠT - SAMTEN HILLS - PUPPY FARM - LANGBIANG - GALLERY LA CHOCOTEA - THÁC DAMBRITP: Giá từ 3.879.000 VND/Người
+      - DU LỊCH ĐÀ LẠT - MONGO LAND - ĐỒI CHÈ CẦU ĐẤT - CHÙA LINH PHƯỚC - THÁC DATANLA- Giá từ 3.979.000 VND/Người
+      Ngoài ra còn một số tour du lịch liên tỉnh
+      - DU LỊCH NHA TRANG - ĐÀ LẠT TP. HỒ CHÍ MINH - ĐÀ LẠT | NHA TRANG
+      - DU LỊCH PHAN THIẾT - ĐÀ LẠT TP. HỒ CHÍ MINH - PHAN THIẾT | ĐÀ LẠT
+      Bạn có thể xem thêm tour ở- link
   utter_hotel_1star:
-  - text: - Khách sạn M&T Đà Lạt – Khách sạn 1 sao gần hồ Xuân Hương
-  Địa chỉ- Số 95 Bùi Thị Xuân, Phường 2, Thành phố Đà Lạt, Lâm Đồng
-  - Ken’s House Backpackers – Khách sạn 1 sao gần trung tâm Đà Lạt
-  Địa chỉ
-  Cơ sở 1- 45 Nam Kỳ Khởi Nghĩa, Phường 1, Thành phố Đà Lạt
-  Cơ sở 2- 49 Nam Kỳ Khởi Nghĩa, Phường 1, Thành phố Đà Lạt
-  Cơ sở 3- Lô C16, Hoàng Văn Thụ, phường 4, Thành phố Đà Lạt
-  - Khách sạn Hải Quyên Đà Lạt
-  Địa chỉ- Số 01 Thủ Khoa Huân, Phường 1, Thành phố Đà Lạt, Lâm Đồng.
+  - text: |- 
+      Khách sạn M&T Đà Lạt – Khách sạn 1 sao gần hồ Xuân Hương
+      Địa chỉ- Số 95 Bùi Thị Xuân, Phường 2, Thành phố Đà Lạt, Lâm Đồng
+      - Ken’s House Backpackers – Khách sạn 1 sao gần trung tâm Đà Lạt
+      Địa chỉ
+      Cơ sở 1- 45 Nam Kỳ Khởi Nghĩa, Phường 1, Thành phố Đà Lạt
+      Cơ sở 2- 49 Nam Kỳ Khởi Nghĩa, Phường 1, Thành phố Đà Lạt
+      Cơ sở 3- Lô C16, Hoàng Văn Thụ, phường 4, Thành phố Đà Lạt
+      - Khách sạn Hải Quyên Đà Lạt
+      Địa chỉ- Số 01 Thủ Khoa Huân, Phường 1, Thành phố Đà Lạt, Lâm Đồng.
   utter_hotel_2star:
-  - text: - Khách sạn Mai Hoàng Đà Lạt
-  Địa chỉ- 42A Hà Huy Tập, Phường 3, Thành phố Đà Lạt, Lâm Đồng.
-  - Khách sạn Mine Đà Lạt
-  Địa chỉ- 5 Đường Chu Văn An, Phường 10, Thành phố Đà Lạt, Lâm Đồng.
-  - Khách sạn Tommy Đà Lạt
-  Địa chỉ- Hẻm 22 Khe Sanh, Phường 10, Thành phố Đà Lạt, Lâm Đồng.
+  - text: |- 
+      Khách sạn Mai Hoàng Đà Lạt
+      Địa chỉ- 42A Hà Huy Tập, Phường 3, Thành phố Đà Lạt, Lâm Đồng.
+      - Khách sạn Mine Đà Lạt
+      Địa chỉ- 5 Đường Chu Văn An, Phường 10, Thành phố Đà Lạt, Lâm Đồng.
+      - Khách sạn Tommy Đà Lạt
+      Địa chỉ- Hẻm 22 Khe Sanh, Phường 10, Thành phố Đà Lạt, Lâm Đồng.
   utter_hotel_3star:
-  - text: - Maika Condotel Da Lat
-  Địa chỉ- Da Lat Center, 10 Phan Bội Châu, Phường 1, Đà Lạt, Tỉnh Lâm Đồng
-  - Sandals Flora Hotel
-  Địa chỉ- 37-40 Đường Nguyễn Thị Minh Khai, Phường 1, Đà Lạt, Lâm Đồng
-  - Nice Dream Đà Lạt
-  Địa chỉ- 01 Nguyễn Thị Minh Khai, Phường 1, Phường 1, Đà Lạt, Lâm Đồng
+  - text: |- 
+      Maika Condotel Da Lat
+      Địa chỉ- Da Lat Center, 10 Phan Bội Châu, Phường 1, Đà Lạt, Tỉnh Lâm Đồng
+      - Sandals Flora Hotel
+      Địa chỉ- 37-40 Đường Nguyễn Thị Minh Khai, Phường 1, Đà Lạt, Lâm Đồng
+      - Nice Dream Đà Lạt
+      Địa chỉ- 01 Nguyễn Thị Minh Khai, Phường 1, Phường 1, Đà Lạt, Lâm Đồng
   utter_hotel_4star:
-  - text- - Khách sạn Terracotta Hotel & Resort Dalat
-  Địa chỉ- phân khu chức năng 7.9, khu du lịch Hồ Tuyền Lâm, thành phố Đà Lạt , Lâm Đồng.- Khách sạn Binh An Village Dalat
-  Địa chỉ- số 6, tiểu khu 162, Hồ Tuyền Lâm, phường 6, thành phố Đà Lạt, Lâm Đồng.
-  - Mường Thanh Đà Lạt Hotel
-  Địa chỉ- Số 42 Phan Bội Châu, Phường 2, Thành phố Đà Lạt, Lâm Đồng.
+  - text: |- 
+      Khách sạn Terracotta Hotel & Resort Dalat
+      Địa chỉ- phân khu chức năng 7.9, khu du lịch Hồ Tuyền Lâm, thành phố Đà Lạt , Lâm Đồng.- Khách sạn Binh An Village Dalat
+      Địa chỉ- số 6, tiểu khu 162, Hồ Tuyền Lâm, phường 6, thành phố Đà Lạt, Lâm Đồng.
+      - Mường Thanh Đà Lạt Hotel
+      Địa chỉ- Số 42 Phan Bội Châu, Phường 2, Thành phố Đà Lạt, Lâm Đồng.
   utter_hotel_5star:
-  - text: - Khách sạn Đà Lạt Palace
-  Địa chỉ- Trần Phú, Thành Phố Đà Lạt, Lâm Đồng
-  - Khách sạn Ladalat
-  Địa chỉ- Mai Anh Đào, Thành Phố Đà Lạt, Lâm Đồng
-  - MerPerle Dalat Hotel
-  Địa chỉ- 1 Đ. Hùng Vương, Phường 10, Thành phố Đà Lạt, Lâm Đồng
+  - text: |- 
+      Khách sạn Đà Lạt Palace
+      Địa chỉ- Trần Phú, Thành Phố Đà Lạt, Lâm Đồng
+      - Khách sạn Ladalat
+      Địa chỉ- Mai Anh Đào, Thành Phố Đà Lạt, Lâm Đồng
+      - MerPerle Dalat Hotel
+      Địa chỉ- 1 Đ. Hùng Vương, Phường 10, Thành phố Đà Lạt, Lâm Đồng
   utter_homestay:
-  - text: - Củi Homestay Đà Lạt
-  Địa chỉ- 79 Đường Triệu Việt Vương, Phường 3, Thành phố Đà Lạt, Lâm Đồng
-  - Legume Homestay Đà Lạt
-  Địa chỉ- Bạch Đằng, Phường 7, Thành phố Đà Lạt, Lâm Đồng
-  - In The Pines Homestay
-  Địa chỉ- 86 Xô Viết Nghệ Tĩnh, Phường 8, Thành phố Đà Lạt
+  - text: |- 
+      Củi Homestay Đà Lạt
+      Địa chỉ- 79 Đường Triệu Việt Vương, Phường 3, Thành phố Đà Lạt, Lâm Đồng
+      - Legume Homestay Đà Lạt
+      Địa chỉ- Bạch Đằng, Phường 7, Thành phố Đà Lạt, Lâm Đồng
+      - In The Pines Homestay
+      Địa chỉ- 86 Xô Viết Nghệ Tĩnh, Phường 8, Thành phố Đà Lạt
   utter_accomodation_other:
-  - text- - CampArt by Mợ Jen
-  Địa chỉ- Nằm trong khu du lịch Thung Lũng Vàng, Xã Lát, Lạc Dương, Thành phố Đà Lạt, Lâm Đồng
-  - Cloud 9 Glamping Đà Lạt
-  Địa chỉ- Thôn Trường Thọ, Xã Trạm Hành, Thành phố Đà Lạt, Lâm Đồng
-  - Glamping Đà Lạt tại Twin Beans Farm
-  Địa chỉ- Thôn 1, Xã Đạ Sar, huyện Lạc Dương, Lâm Đồng
+  - text- |- 
+      CampArt by Mợ Jen
+      Địa chỉ- Nằm trong khu du lịch Thung Lũng Vàng, Xã Lát, Lạc Dương, Thành phố Đà Lạt, Lâm Đồng
+      - Cloud 9 Glamping Đà Lạt
+      Địa chỉ- Thôn Trường Thọ, Xã Trạm Hành, Thành phố Đà Lạt, Lâm Đồng
+      - Glamping Đà Lạt tại Twin Beans Farm
+      Địa chỉ- Thôn 1, Xã Đạ Sar, huyện Lạc Dương, Lâm Đồng
   utter_food_popular:
-  - text: - Bánh mì xíu mại: Món ăn sáng phổ biến ở Đà Lạt với bánh mì giòn kẹp thịt xíu mại, pate, trứng ốp la, dưa leo, và rau thơm. 
-  - Bánh tráng nướng- Món ăn vặt yêu thích của du khách với bánh tráng nướng giòn rụm, phết mỡ hành, rắc trứng, pate, xúc xích, và các loại topping khác. 
-  - Bánh căn- Món bánh làm từ bột gạo, nướng trong khuôn với nhiều loại topping khác nhau như trứng, thịt băm, tôm, và chả cá. 
-  - Lẩu gà lá é- Món lẩu gà thơm ngon với nước dùng thanh ngọt, gà dai mềm, và lá é cay nồng. 
-  - Bánh ướt lòng gà- Món ăn đặc sản của Đà Lạt với bánh ướt mềm mịn, lòng gà dai ngon, và nước chấm đậm đà. 
-  Ngoài ra, du khách cũng có thể thưởng thức nhiều món ăn ngon khác ở Đà Lạt như
-  - Bánh canh
-  - Bún bò Huế
-  - Phở
-  - Nem nướng
-  - Bánh bao
-  - Xắp xắp
-  - Kem bơ
-  - Sữa chua phô mai
+  - text: |- 
+        Bánh mì xíu mại: Món ăn sáng phổ biến ở Đà Lạt với bánh mì giòn kẹp thịt xíu mại, pate, trứng ốp la, dưa leo, và rau thơm. 
+      - Bánh tráng nướng- Món ăn vặt yêu thích của du khách với bánh tráng nướng giòn rụm, phết mỡ hành, rắc trứng, pate, xúc xích, và các loại topping khác. 
+      - Bánh căn- Món bánh làm từ bột gạo, nướng trong khuôn với nhiều loại topping khác nhau như trứng, thịt băm, tôm, và chả cá. 
+      - Lẩu gà lá é- Món lẩu gà thơm ngon với nước dùng thanh ngọt, gà dai mềm, và lá é cay nồng. 
+      - Bánh ướt lòng gà- Món ăn đặc sản của Đà Lạt với bánh ướt mềm mịn, lòng gà dai ngon, và nước chấm đậm đà. 
+      Ngoài ra, du khách cũng có thể thưởng thức nhiều món ăn ngon khác ở Đà Lạt như
+      - Bánh canh
+      - Bún bò Huế
+      - Phở
+      - Nem nướng
+      - Bánh bao
+      - Xắp xắp
+      - Kem bơ
+      - Sữa chua phô mai
   utter_bbq:
-  - text: - Quán nướng Chu
-  Địa chỉ- Lô B1_ 18 khu quy hoạch Golf Valley, phường 2, Đà Lạt.
-  - Quán Fungi Chingu – ẩm thực Hàn Quốc
-  Địa chỉ-
-  01 đường Nguyễn Thị Minh Khai, phường 1, Đà Lạt.
-  51 đường Ba Tháng Hai, phường 1, Đà Lạt
-  185 đường Bùi Thị Xuân, phường 2, Đà Lạt.
-  - Quán nướng Á Ù- nướng xiên que ngon
-  Địa chỉ- 47C đường Phù Đổng Thiên Vương, phường 8, Đà Lạt.
-  - text: - Quán nướng Cút Kít- BBQ & Beer
-  Địa chỉ- 222 Đường Mai Anh Đào, Phường 8, Thành phố Đà Lạt, Lâm Đồng
-  - Tiệm nướng Trong Rừng- quán nướng giữa đồi thông
-  Địa chỉ- 3 Bis đường Đống Đa, phường 3, Đà Lạt.
+  - text: |- 
+      Quán nướng Chu
+      Địa chỉ- Lô B1_ 18 khu quy hoạch Golf Valley, phường 2, Đà Lạt.
+      - Quán Fungi Chingu – ẩm thực Hàn Quốc
+      Địa chỉ-
+      01 đường Nguyễn Thị Minh Khai, phường 1, Đà Lạt.
+      51 đường Ba Tháng Hai, phường 1, Đà Lạt
+      185 đường Bùi Thị Xuân, phường 2, Đà Lạt.
+      - Quán nướng Á Ù- nướng xiên que ngon
+      Địa chỉ- 47C đường Phù Đổng Thiên Vương, phường 8, Đà Lạt.
+  - text: |- 
+      Quán nướng Cút Kít- BBQ & Beer
+      Địa chỉ- 222 Đường Mai Anh Đào, Phường 8, Thành phố Đà Lạt, Lâm Đồng
+      - Tiệm nướng Trong Rừng- quán nướng giữa đồi thông
+      Địa chỉ- 3 Bis đường Đống Đa, phường 3, Đà Lạt.
   utter_cafe:
-  - text: - Tiệm cà phê Túi Mơ To
-  Địa chỉ- Nằm tại hẻm 31 Sào Nam, P11, Tp. Đà Lạt, Lâm Đồng.
-  - Tiệm cà phê Trong Rừng
-  Địa chỉ- Đèo Mimosa , Phường 10, TP Đà Lạt
-  - text: - Tiệm cà phê Góc của Tùng. 
-  Địa chỉ- 32/2 đường 3/4, phường 3, tp. Đà Lạt.
-  - Quán cafe lời của Gió.
-  Địa chỉ- Đường Huỳnh Tấn Phát, Phường 11, Thành phố Đà Lạt, Lâm Đồng
-  - Tiệm Cà Phê Người Thương Ơi 
-  Địa chỉ- Hẻm 18 Tô Hiệu phường 8 Đà Lạt.
+  - text: |- 
+      Tiệm cà phê Túi Mơ To
+      Địa chỉ- Nằm tại hẻm 31 Sào Nam, P11, Tp. Đà Lạt, Lâm Đồng.
+      - Tiệm cà phê Trong Rừng
+      Địa chỉ- Đèo Mimosa , Phường 10, TP Đà Lạt
+  - text: |- 
+      Tiệm cà phê Góc của Tùng. 
+      Địa chỉ- 32/2 đường 3/4, phường 3, tp. Đà Lạt.
+      - Quán cafe lời của Gió.
+      Địa chỉ- Đường Huỳnh Tấn Phát, Phường 11, Thành phố Đà Lạt, Lâm Đồng
+      - Tiệm Cà Phê Người Thương Ơi 
+      Địa chỉ- Hẻm 18 Tô Hiệu phường 8 Đà Lạt.
   utter_breakfast: 
-  - text: - Bánh Căn Lệ Yersin Đà Lạt
-  Địa chỉ- 27/44 Đường Yersin, Phường 10, Thành phố Đà Lạt, Tỉnh Lâm Đồng.
-  - Bún Bò Bốc Khói Đoàn Viên Đà Lạt
-  Địa chỉ- 29 Trần Phú, Phường 4, Thành phố Đà Lạt, Lâm Đồng
-  - Bánh Mì Xíu Mại Hồng Đà Lạt
-  Địa chỉ- 72 Đường Yersin, Phường 10, Thành phố Đà Lạt, Tỉnh Lâm Đồng.
-  - Bánh Ướt Lòng Gà Long Đà Lạt
-  Địa chỉ- Hẻm 202 Phan Đình Phùng, thành phố Đà Lạt, tình Lâm Đồng.
+  - text: |- 
+      Bánh Căn Lệ Yersin Đà Lạt
+      Địa chỉ- 27/44 Đường Yersin, Phường 10, Thành phố Đà Lạt, Tỉnh Lâm Đồng.
+      - Bún Bò Bốc Khói Đoàn Viên Đà Lạt
+      Địa chỉ- 29 Trần Phú, Phường 4, Thành phố Đà Lạt, Lâm Đồng
+      - Bánh Mì Xíu Mại Hồng Đà Lạt
+      Địa chỉ- 72 Đường Yersin, Phường 10, Thành phố Đà Lạt, Tỉnh Lâm Đồng.
+      - Bánh Ướt Lòng Gà Long Đà Lạt
+      Địa chỉ- Hẻm 202 Phan Đình Phùng, thành phố Đà Lạt, tình Lâm Đồng.
   utter_lunch:
-  - text: - Tiệm cơm 19 Hồi đó
-  Địa chỉ- 06 Phù Đổng Thiên Vương, Đà Lạt, Lâm Đồng
-  - Chợ Phiên Quán
-  Địa chỉ-  Số 118 Vạn Hạnh, Phường 8, Đà Lạt
-  - Hương Quán
-  Địa chỉ- 47b Trần Bình Trọng - P5 - Đà Lạt
+  - text: |- 
+      Tiệm cơm 19 Hồi đó
+      Địa chỉ- 06 Phù Đổng Thiên Vương, Đà Lạt, Lâm Đồng
+      - Chợ Phiên Quán
+      Địa chỉ-  Số 118 Vạn Hạnh, Phường 8, Đà Lạt
+      - Hương Quán
+      Địa chỉ- 47b Trần Bình Trọng - P5 - Đà Lạt
   utter_dinner:
-  - text: - Tiệm gà TukTuk
-  Địa chỉ- 39 Trần Đại Nghĩa phường 8 - Đà Lạt 
-  - Tiệm nướng Thương Thương 
-  Địa chỉ- 30 Đặng Thái Thân, phường 3, Đà Lạt, Lâm Đồng
-  - Tiệm nướng Mậu Dịch
-  Địa chỉ- 28b Trần Hưng Đạo - p10
+  - text: |- 
+      Tiệm gà TukTuk
+      Địa chỉ- 39 Trần Đại Nghĩa phường 8 - Đà Lạt 
+      - Tiệm nướng Thương Thương 
+      Địa chỉ- 30 Đặng Thái Thân, phường 3, Đà Lạt, Lâm Đồng
+      - Tiệm nướng Mậu Dịch
+      Địa chỉ- 28b Trần Hưng Đạo - p10
   utter_hotelnearxuanhuonglake:
-  - text: - khách sạn gần hồ xuân hương
+  - text: |- 
+      khách sạn gần hồ xuân hương
   utter_homestaynearxuanhuonglake:
-  - text: - homestay gần hồ xuân hương
+  - text: |- 
+      homestay gần hồ xuân hương
   utter_accommodationnearxuanhuonglake:
-  - text: - nơi ở gần hồ xuân hương
+  - text: |- 
+      nơi ở gần hồ xuân hương
   utter_hotelnearvalleylove:
-  - text: - khách sạn gần thung lũng tình yêu
+  - text: |- 
+      khách sạn gần thung lũng tình yêu
   utter_homestaynearvalleylove:
-  - text: - homestay gần thung lũng tình yêu
+  - text: |- 
+      homestay gần thung lũng tình yêu
   utter_accommodationnearvalleylove:
-  - text: - chỗ ở gần thung lũng tình yêu
+  - text: |- 
+      chỗ ở gần thung lũng tình yêu
   utter_hotelnearrooster:
-  - text: - khách sạn gần nhà thờ
+  - text: |- 
+      khách sạn gần nhà thờ
   utter_homestaynearrooster:
-  - text: homestay gần nhà thờ
+  - text: |- 
+      homestay gần nhà thờ
   utter_accommodationnearrooster:
-  - text: - chỗ ở gần nhà thờ
+  - text: |- 
+      chỗ ở gần nhà thờ
   utter_hotelnearflowerpark:
-  - text: - khách sạn gần vườn hoa
+  - text: |- 
+      khách sạn gần vườn hoa
   utter_homestaynearflowerpark:
-  - text: - homestay gần vườn hoa
+  - text: - 
+      homestay gần vườn hoa
   utter_accommodationnearflowerpark:
-  - text: - nơi ở gần vườn hoa
+  - text: |- 
+      nơi ở gần vườn hoa
   utter_hotel_with_forestview:
-  - text: - khách sạn view rừng
+  - text: |- 
+      khách sạn view rừng
   utter_homestay_with_forestview:
-  - text: - homestay view rừng
+  - text: |- 
+      homestay view rừng
   utter_accommodation_with_forestview:
-  - text: - nơi ở view rừng
+  - text: |- 
+      nơi ở view rừng
