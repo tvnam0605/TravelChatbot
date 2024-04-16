@@ -19,7 +19,7 @@ nlu:
     - Chào
     - chao
 
-- intent: goodbye
+- intent: bye
   examples: |
     - cu
     - good by
@@ -61,28 +61,28 @@ nlu:
     - khách sạn 1 sao
     - khach san mot sao
 - intent: find_2star_hotel
-  examples:
+  examples: |
     - khách sạn hai sao
     - khách sạn 2 sao
 - intent: find_3star_hotel
-  examples:
+  examples: |
     - khách sạn ba sao
     - khách sạn 3 sao
 - intent: find_4star_hotel
-  examples:
+  examples: |
     - khách sạn bốn sao
     - khách sạn 4 sao
     - khách sạn bon sao
 - intent: find_5star_hotel
-  examples: 
+  examples: |
     - khách sạn năm sao
     - khách sạn 5 sao
     - khách sạn nam sao
 - intent: find_accommodation_near_center
-  examples:
+  examples: |
     - Nơi ở gần trung tâm
 - intent: find_hotel_near_center
-  examples:
+  examples: |
     - Khách sạn gần trung tâm
     - Khách sạn ở gần trung tâm thành phố
     - Tìm khách sạn ở trung tâm
@@ -90,7 +90,7 @@ nlu:
     - khach san gan trung tam
     - khach san o trung tam
 - intent: find_guesthouse_near_center
-  examples:
+  examples: |
     - Nhà nghỉ gần trung tâm
     - Nhà nghỉ ở gần trung tâm thành phố
     - Cần tìm nhà nghỉ ở trung tâm
@@ -98,7 +98,7 @@ nlu:
     - nha nghi gan trung tam
     - nha nghi o trung tam
 - intent: find_homestay_near_center
-  examples:
+  examples: |
     - Homestay gần trung tâm
     - Tìm homestay ở gần trung tâm thành phố
     - Cần homestay ở trung tâm
@@ -107,7 +107,7 @@ nlu:
     - home gan trung tam
     - home o trung tam
 - intent: find_hotel_with_beautiful_view
-  examples:
+  examples: |
     - Tìm khách sạn có view đẹp
     - Cần khách sạn với tầm nhìn đẹp
     - Khách sạn nào có cảnh đẹp xung quanh?
@@ -115,7 +115,7 @@ nlu:
     - khach san view dep
     - khach san co view
 - intent: find_cloud_hunting_accommodation
-  examples:
+  examples: |
     - Chỗ ở săn mây
     - Homestay có không gian săn mây
     - Tìm nơi ở với trải nghiệm săn mây
@@ -123,7 +123,7 @@ nlu:
     - san may
     - cho o san may
 - intent: find_hotel_with_pool
-  examples:
+  examples: |
     - Tìm khách sạn có hồ bơi
     - Khách sạn với bể bơi
     - Homestay có hồ nước
@@ -131,7 +131,7 @@ nlu:
     - be boi
     - ho boi
 - intent: find_hotel_with_breakfast_service
-  examples:
+  examples: |
     - Tìm khách sạn có dịch vụ ăn sáng
     - Khách sạn cung cấp bữa sáng
     - Homestay có dịch vụ ăn sáng không?
@@ -140,11 +140,11 @@ nlu:
     - bua sang
     - buffet sang
 - intent: find_resort
-  examples:
+  examples: |
     - Tìm resort
     - Resort nào đẹp nhất?
 - intent: find_glamping_site
-  examples:
+  examples: |
     - Tìm khu glamping
     - Nơi glamping gần đây
     - Chỗ ở glamping ở đâu?
@@ -152,7 +152,7 @@ nlu:
     - glamping trung tam
     - cam trai
 - intent: find_affordable_accommodation
-  examples:
+  examples: |
     - Tìm chỗ ở giá rẻ
     - Chỗ ở phải rẻ
     - Homestay giá bình dân
@@ -162,13 +162,13 @@ nlu:
     - giá hạt dẻ
     - gia hat de
 - intent: book_accommodation
-  examples:
+  examples: |
     - Làm thế nào để đặt phòng?
     - Đặt cho tôi một phòng khách sạn
     - Hỗ trợ tôi với việc đặt chỗ ở
     - cach dat phong
 - intent: check_checkin_checkout_time
-  examples:
+  examples: |
     - Giờ nhận và trả phòng là gì?
     - Khi nào có thể nhận phòng?
     - Giờ trả phòng là khi nào?
@@ -177,7 +177,7 @@ nlu:
     - tra phong
     - thoi gian
 - intent: find_accommodation_with_meeting_facilities
-  examples:
+  examples: |
     - Chỗ ở hỗ trợ buổi hội thảo
     - Tìm khách sạn có phòng họp
     - Homestay có tiện nghi tổ chức sự kiện
@@ -186,7 +186,7 @@ nlu:
     - hoi thao
     - to chuc su kien
 - intent: find_accommodation_with_bbq_facilities
-  examples: 
+  examples: |
     - Tìm chỗ ở hỗ trợ tổ chức BBQ
     - Khách sạn có tiện ích BBQ
     - Homestay có khu vực BBQ
@@ -194,77 +194,77 @@ nlu:
     - nuong
 
 - intent: find_hotel_near_xuanhuonglake
-  examples:
+  examples: |
     - khach san gan ho xuan huong
     - khách sạn gần hồ xuân hương
     - khách sạn gần xuân hương lake
 - intent: find_homesay_near_xuanhuonglake
-  examples:
+  examples: |
     - homestay gan ho xuan huong
     - homestay gần hồ xuân hương
     - homestay gần xuân hương lake
 - intent: accommodation_near_xuanhuonglake
-  examples:
+  examples: |
     - cho o gan ho xuan huong
     - chỗ ở gần hồ xuân hương
     - chỗ ở gần xuân hương lake
     - noi o gan ho xuan huong
 - intent: find_hotel_near_valley_of_love
-  examples:
+  examples: |
     - valley of love
     - thung lung tinh yeu
     - khách sạn thung lũng tình yêu
     - hotel gần thung lũng
 - intent: find_homestay_near_valley_of_love
-  examples:
+  examples: |
     - homestay valley of love
     - homestay thung lung tinh yeu
     - homestay thung lũng tình yêu
     - homestay gần thung lũng
 - intent: accommodation_near_valley_of_love
-  examples:
+  examples: |
     - cho o gan thung lung
     - chỗ ở gần thung lũng tình yêu
     - noi o gan thung lung tinh yeu
 - intent: find_hotel_near_rooster
-  examples:
+  examples: |
     - khach san gan nha tho
     - khách sạn gần nhà thờ
     - hotel gần nhà thờ
 - intent: find_homestay_near_rooster
-  examples:
+  examples: |
     - homestay gan nha tho
     - homestay gần nhà thờ
 - intent: accommodation_near_rooster
-  examples:
+  examples: |
     - noi o gan nha tho
     - nơi ở gần nhà thờ
 - intent: find_homestay_near_flowerpark
-  examples:
+  examples: |
     - homestay gan vuon hoa
     - homestay gần vườn hoa
     - home gan vuon hoa
 - intent: find_hotel_near_flowerpark
-  examples:
+  examples: |
     - khach san gan vuon hoa
     - khách sạn gần vườn hoa
     - ks gan vuon hoa
     - khách sạn gần vườn hoa
 - intent: accommodation_near_flowerpark
-  examples:
+  examples: |
     - noi o gan vuon hoa
     - nơi ở gần vườn hoa
     - cho o gan vuon hoa
 - intent: find_hotel_with_forest_view
-  examples:
+  examples: |
     - khách sạn view rừng
     - khach san view rung
     - hotel view rừng
 - intent: find_homestay_with_forest_view
-  examples:
+  examples: |
     - homestay view rừng
     - homestay view rung
 - intent: accommodation_with_forest_view
-  examples:
+  examples: |
     - nơi ở view rừng
     - noi o view rung
