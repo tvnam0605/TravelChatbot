@@ -14,28 +14,28 @@ stories:
   
   - story: find_1s_hotel
     steps:
-      - intent: find_1start_hotel
-      - action: utter_hotel_1start
+      - intent: find_1star_hotel
+      - action: utter_hotel_1star
 
   - story: find_2s_hotel
     steps:
-      - intent: find_2start_hotel
-      - action: utter_hotel_2start
+      - intent: find_2star_hotel
+      - action: utter_hotel_2star
 
   - story: find_3s_hotel
     steps:
-      - intent: find_3start_hotel
-      - action: utter_hotel_3start
+      - intent: find_3star_hotel
+      - action: utter_hotel_3star
 
   - story: find_4s_hotel
     steps:
-      - intent: find_4start_hotel
-      - action: utter_hotel_4start
+      - intent: find_4star_hotel
+      - action: utter_hotel_4star
 
   - story: find_5s_hotel
     steps:
-      - intent: find_5start_hotel
-      - action: utter_hotel_5start
+      - intent: find_5star_hotel
+      - action: utter_hotel_5star
 
   - story: find_homestay
     steps:
