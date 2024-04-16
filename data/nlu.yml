@@ -192,3 +192,78 @@ nlu:
     - Homestay có khu vực BBQ
     - Chỗ ở hỗ trợ tổ chức buổi nướng BBQ
     - nuong
+- intent: find_hotel_near_xuanhuonglake
+  example:
+    - khach san gan ho xuan huong
+    - khách sạn gần hồ xuân hương
+    - khách sạn gần xuân hương lake
+- intent: find_homesay_near_xuanhuonglake
+  example:
+    - homestay gan ho xuan huong
+    - homestay gần hồ xuân hương
+    - homestay gần xuân hương lake
+- intent: accommodation_near_xuanhuonglake
+  example:
+    - cho o gan ho xuan huong
+    - chỗ ở gần hồ xuân hương
+    - chỗ ở gần xuân hương lake
+    - noi o gan ho xuan huong
+- intent: find_hotel_near_valley_of_love
+  example:
+    - valley of love
+    - thung lung tinh yeu
+    - khách sạn thung lũng tình yêu
+    - hotel gần thung lũng
+- intent: find_homestay_near_valley_of_love
+  example:
+    - homestay valley of love
+    - homestay thung lung tinh yeu
+    - homestay thung lũng tình yêu
+    - homestay gần thung lũng
+- intent: accommodation_near_valley_of_love
+  example:
+    - cho o gan thung lung
+    - chỗ ở gần thung lũng tình yêu
+    - noi o gan thung lung tinh yeu
+- intent: find_hotel_near_rooster
+  example:
+    - khach san gan nha tho
+    - khách sạn gần nhà thờ
+    - hotel gần nhà thờ
+- intent: find_homestay_near_rooster
+  example:
+    - homestay gan nha tho
+    - homestay gần nhà thờ
+- intent: accommodation_near_rooster
+  example:
+    - noi o gan nha tho
+    - nơi ở gần nhà thờ
+- intent: find_homestay_near_flowerpark
+  example:
+    - homestay gan vuon hoa
+    - homestay gần vườn hoa
+    - home gan vuon hoa
+- intent: find_hotel_near_flowerpark
+  example:
+    - khach san gan vuon hoa
+    - khách sạn gần vườn hoa
+    - ks gan vuon hoa
+    - khách sạn gần vườn hoa
+- intent: accommodation_near_flowerpark
+  example:
+    - noi o gan vuon hoa
+    - nơi ở gần vườn hoa
+    - cho o gan vuon hoa
+- intent: find_hotel_with_forest_view
+  example:
+    - khách sạn view rừng
+    - khach san view rung
+    - hotel view rừng
+- intent: find_homestay_with_forest_view
+  example:
+    - homestay view rừng
+    - homestay view rung
+- intent: accommodation_with_forest_view
+  example:
+    - nơi ở view rừng
+    - noi o view rung
