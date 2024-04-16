@@ -215,6 +215,7 @@ responses:
       Bạn có thể xem thêm tour ở- link
   utter_hotel_1star:
   - text: |- 
+      Dưới đây là một số khách sạn 3 sao bạn có thể tham khảo
       Khách sạn M&T Đà Lạt – Khách sạn 1 sao gần hồ Xuân Hương
       Địa chỉ- Số 95 Bùi Thị Xuân, Phường 2, Thành phố Đà Lạt, Lâm Đồng
       - Ken’s House Backpackers – Khách sạn 1 sao gần trung tâm Đà Lạt
@@ -226,6 +227,7 @@ responses:
       Địa chỉ- Số 01 Thủ Khoa Huân, Phường 1, Thành phố Đà Lạt, Lâm Đồng.
   utter_hotel_2star:
   - text: |- 
+      Dưới đây là một số khách sạn 2 sao bạn có thể tham khảo
       Khách sạn Mai Hoàng Đà Lạt
       Địa chỉ- 42A Hà Huy Tập, Phường 3, Thành phố Đà Lạt, Lâm Đồng.
       - Khách sạn Mine Đà Lạt
@@ -234,6 +236,7 @@ responses:
       Địa chỉ- Hẻm 22 Khe Sanh, Phường 10, Thành phố Đà Lạt, Lâm Đồng.
   utter_hotel_3star:
   - text: |- 
+      Dưới đây là một số khách sạn 3 sao bạn có thể tham khảo
       Maika Condotel Da Lat
       Địa chỉ- Da Lat Center, 10 Phan Bội Châu, Phường 1, Đà Lạt, Tỉnh Lâm Đồng
       - Sandals Flora Hotel
@@ -241,7 +244,8 @@ responses:
       - Nice Dream Đà Lạt
       Địa chỉ- 01 Nguyễn Thị Minh Khai, Phường 1, Phường 1, Đà Lạt, Lâm Đồng
   utter_hotel_4star:
-  - text: |- 
+  - text: |-
+      Dưới đây là một số khách sạn 4 sao bạn có thể tham khảo
       Khách sạn Terracotta Hotel & Resort Dalat
       Địa chỉ- phân khu chức năng 7.9, khu du lịch Hồ Tuyền Lâm, thành phố Đà Lạt , Lâm Đồng.- Khách sạn Binh An Village Dalat
       Địa chỉ- số 6, tiểu khu 162, Hồ Tuyền Lâm, phường 6, thành phố Đà Lạt, Lâm Đồng.
@@ -249,6 +253,7 @@ responses:
       Địa chỉ- Số 42 Phan Bội Châu, Phường 2, Thành phố Đà Lạt, Lâm Đồng.
   utter_hotel_5star:
   - text: |- 
+      Dưới đây là một số khách sạn 4 sao bạn có thể tham khảo
       Khách sạn Đà Lạt Palace
       Địa chỉ- Trần Phú, Thành Phố Đà Lạt, Lâm Đồng
       - Khách sạn Ladalat
@@ -256,7 +261,8 @@ responses:
       - MerPerle Dalat Hotel
       Địa chỉ- 1 Đ. Hùng Vương, Phường 10, Thành phố Đà Lạt, Lâm Đồng
   utter_homestay:
-  - text: |- 
+  - text: |-
+      Một số homestay ở Đà lạt
       Củi Homestay Đà Lạt
       Địa chỉ- 79 Đường Triệu Việt Vương, Phường 3, Thành phố Đà Lạt, Lâm Đồng
       - Legume Homestay Đà Lạt
@@ -264,7 +270,8 @@ responses:
       - In The Pines Homestay
       Địa chỉ- 86 Xô Viết Nghệ Tĩnh, Phường 8, Thành phố Đà Lạt
   utter_accomodation_other:
-  - text- |- 
+  - text- |-
+      Đà lạt có rất nhiều loại hình lưu trú như nhà nghỉ, khách sạn, ngoài ra, nếu như bạn muốn thay đổi cho chuyến đi của mình, có thể lựa chọn một số loại hình khác dưới đây
       CampArt by Mợ Jen
       Địa chỉ- Nằm trong khu du lịch Thung Lũng Vàng, Xã Lát, Lạc Dương, Thành phố Đà Lạt, Lâm Đồng
       - Cloud 9 Glamping Đà Lạt
@@ -288,7 +295,8 @@ responses:
       - Kem bơ
       - Sữa chua phô mai
   utter_bbq:
-  - text: |- 
+  - text: |-
+      Sẽ thật tuyệt vời nếu như ăn nướng dưới thời tiết mát lạnh của Đà Lạt, đây là một số địa điểm gợi ý cho bạn
       Quán nướng Chu
       Địa chỉ- Lô B1_ 18 khu quy hoạch Golf Valley, phường 2, Đà Lạt.
       - Quán Fungi Chingu – ẩm thực Hàn Quốc
@@ -298,7 +306,8 @@ responses:
       185 đường Bùi Thị Xuân, phường 2, Đà Lạt.
       - Quán nướng Á Ù- nướng xiên que ngon
       Địa chỉ- 47C đường Phù Đổng Thiên Vương, phường 8, Đà Lạt.
-  - text: |- 
+  - text: |-
+      Sẽ thật tuyệt vời nếu như ăn nướng dưới thời tiết mát lạnh của Đà Lạt, đây là một số địa điểm gợi ý cho bạn
       Quán nướng Cút Kít- BBQ & Beer
       Địa chỉ- 222 Đường Mai Anh Đào, Phường 8, Thành phố Đà Lạt, Lâm Đồng
       - Tiệm nướng Trong Rừng- quán nướng giữa đồi thông
@@ -344,7 +353,7 @@ responses:
       Địa chỉ- 28b Trần Hưng Đạo - p10
   utter_hotelnearxuanhuonglake:
   - text: |- 
-      khách sạn gần hồ xuân hương
+      Đây là một số khách sạn gần hồ xuân hương
   utter_homestaynearxuanhuonglake:
   - text: |- 
       homestay gần hồ xuân hương
