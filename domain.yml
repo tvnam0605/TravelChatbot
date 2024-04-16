@@ -13,7 +13,7 @@ session_config:
 
 intents:
   - greet
-  - goodbye
+  - bye
   - ask_ability
   - please_rephrase
   - find_accommodation
@@ -91,28 +91,35 @@ actions:
   - utter_hotel_with_forestview
   - utter_homestay_with_forestview
   - utter_accommodation_with_forestview
+  - utter_guesshouse_near_center
 slots: {}
 
 responses:
   utter_greet:
     - text: |-
         Chào bạn. 
-        Tôi là chatbot được thiết kế để cung cấp cho bạn một số thông tin về du lịch như:
-        - Các địa điểm du lịch tại Đà Lạt
-        - Những khách sạn, nhà nghỉ hay homestay tại Đà Lạt
-        - Mẹo khi đi du lịch
-        - Kinh nghiệm khi đi du lịch
-        - Ẩm thực ở Đà Lạt
-        - Các tours du lịch
-        - Các dịch vụ hỗ trợ du khách
-    - text: Chào bạn, tôi là chatbot hỗ trợ du lịch, bạn cần thông tin gì?
-    - text: Xin chào, tôi là chatbot, tôi có thể giúp gì cho bạn ngày hôm nay?
-    - text: Xin chào, tôi là chatbot được tạo ra với mục đích hỗ trợ các vấn đề về du lịch, bạn có câu hỏi gì không?
-    - text: Tôi tên Du Lịch Bot. Rất vui được hỗ trợ bạn.
+        Tôi là chatbot được thiết kế để cung cấp cho bạn một số thông tin về chỗ ở: Khách sạn | Homestay | Loại hình khác.
+    - text: |-
+        Chào bạn, tôi là chatbot hỗ trợ du lịch, bạn cần thông tin gì?: Khách sạn | Homestay | Loại hình khác.
+    - text: |-
+        Xin chào, tôi là chatbot, tôi có thể giúp gì cho bạn ngày hôm nay?
+    - text: |-
+        Xin chào, tôi là chatbot được tạo ra với mục đích hỗ trợ các vấn đề về du lịch, bạn có câu hỏi gì không?
+    - text: |-
+        Tôi tên Du Lịch Bot. Rất vui được hỗ trợ bạn.
   utter_info:
-    - text: Tôi là chatbot hỗ trợ du lịch ở Đà Lạt, bạn có thể hỏi bất cứ vấn đề nào bạn quan tâm, tôi sẽ giải đáp cho bạn.
-    - text: Bạn có câu hỏi nào về chuyến đi của mình, tôi sẽ giải đáp giúp bạn.
-    - text: Nếu sắp tới bạn có chuyến du lịch ở Đà Lạt mà chưa chọn được những địa điểm vui chơi, ăn uống, đi lại,... tôi có thể giải đáp cho bạn.
+    - text: |-
+        Tôi là chatbot hỗ trợ du lịch ở Đà Lạt, bạn có thể hỏi bất cứ vấn đề nào bạn quan tâm, tôi sẽ giải đáp cho bạn.
+    - text: |-
+        Bạn có câu hỏi nào về chuyến đi của mình, tôi sẽ giải đáp giúp bạn.
+    - text: |-
+        Nếu sắp tới bạn có chuyến du lịch ở Đà Lạt mà chưa chọn được những địa điểm vui chơi, ăn uống, đi lại,... tôi có thể giải đáp cho bạn.
+  utter_goodbye:
+    - text: |-
+        Hẹn gặp lại bạn
+  utter_iambot:
+    - text: |-
+        Tôi là chatbot hỗ trợ về chỗ ở Đà Lạt, bạn cần hỗ trợ về loại hình nào: Khách sạn | Homestay | Loại hình khác.
   utter_introduction:
     - text: |-
         Đà Lạt là một thành phố nằm ở cao nguyên Lâm Đồng, miền Trung Việt Nam. Thành phố này được biết đến với biệt danh "thành phố mùa xuân vĩnh cửu" hay "thành phố mùa xuân" do khí hậu mát mẻ quanh năm và vẻ đẹp thiên nhiên tuyệt vời. Dưới đây là một số điểm đặc biệt và đặc trưng về Đà Lạt:
@@ -213,6 +220,13 @@ responses:
       - DU LỊCH NHA TRANG - ĐÀ LẠT TP. HỒ CHÍ MINH - ĐÀ LẠT | NHA TRANG
       - DU LỊCH PHAN THIẾT - ĐÀ LẠT TP. HỒ CHÍ MINH - PHAN THIẾT | ĐÀ LẠT
       Bạn có thể xem thêm tour ở- link
+  utter_guesshouse_near_center:
+  - text: |-
+     Nha nghi gan trung tam
+     - Dalat Happy Hostel
+     - GoGo Dalat Hostel
+     - Minh Ánh Hostel Đà Lạt
+     - Nhật Anh Hostel
   utter_hotel_1star:
   - text: |- 
       Dưới đây là một số khách sạn 3 sao bạn có thể tham khảo
@@ -270,7 +284,7 @@ responses:
       - In The Pines Homestay
       Địa chỉ- 86 Xô Viết Nghệ Tĩnh, Phường 8, Thành phố Đà Lạt
   utter_accomodation_other:
-  - text- |-
+  - text: |-
       Đà lạt có rất nhiều loại hình lưu trú như nhà nghỉ, khách sạn, ngoài ra, nếu như bạn muốn thay đổi cho chuyến đi của mình, có thể lựa chọn một số loại hình khác dưới đây
       CampArt by Mợ Jen
       Địa chỉ- Nằm trong khu du lịch Thung Lũng Vàng, Xã Lát, Lạc Dương, Thành phố Đà Lạt, Lâm Đồng
@@ -278,22 +292,6 @@ responses:
       Địa chỉ- Thôn Trường Thọ, Xã Trạm Hành, Thành phố Đà Lạt, Lâm Đồng
       - Glamping Đà Lạt tại Twin Beans Farm
       Địa chỉ- Thôn 1, Xã Đạ Sar, huyện Lạc Dương, Lâm Đồng
-  utter_food_popular:
-  - text: |- 
-        Bánh mì xíu mại: Món ăn sáng phổ biến ở Đà Lạt với bánh mì giòn kẹp thịt xíu mại, pate, trứng ốp la, dưa leo, và rau thơm. 
-      - Bánh tráng nướng- Món ăn vặt yêu thích của du khách với bánh tráng nướng giòn rụm, phết mỡ hành, rắc trứng, pate, xúc xích, và các loại topping khác. 
-      - Bánh căn- Món bánh làm từ bột gạo, nướng trong khuôn với nhiều loại topping khác nhau như trứng, thịt băm, tôm, và chả cá. 
-      - Lẩu gà lá é- Món lẩu gà thơm ngon với nước dùng thanh ngọt, gà dai mềm, và lá é cay nồng. 
-      - Bánh ướt lòng gà- Món ăn đặc sản của Đà Lạt với bánh ướt mềm mịn, lòng gà dai ngon, và nước chấm đậm đà. 
-      Ngoài ra, du khách cũng có thể thưởng thức nhiều món ăn ngon khác ở Đà Lạt như
-      - Bánh canh
-      - Bún bò Huế
-      - Phở
-      - Nem nướng
-      - Bánh bao
-      - Xắp xắp
-      - Kem bơ
-      - Sữa chua phô mai
   utter_bbq:
   - text: |-
       Sẽ thật tuyệt vời nếu như ăn nướng dưới thời tiết mát lạnh của Đà Lạt, đây là một số địa điểm gợi ý cho bạn
@@ -353,13 +351,63 @@ responses:
       Địa chỉ- 28b Trần Hưng Đạo - p10
   utter_hotelnearxuanhuonglake:
   - text: |- 
-      Đây là một số khách sạn gần hồ xuân hương
+      Đây là một số khách sạn gần Hồ Xuân Hương
+      - Khách Sạn Đà Lạt Palace Heritage
+      Địa chỉ: 2 Trần Phú, P.3, Đà Lạt 66100 Việt Nam
+      0.2 km từ Xuan Huong Lake
+      - TTC Hotel Premium - Ngọc Lan
+      Địa chỉ: 42 Nguyễn Chí Thanh, Đà Lạt 670000 Việt Nam
+      0.4 km từ Xuan Huong Lake
+      - Khách Sạn TTC - Đà Lạt
+      Địa chỉ: 4 Nguyễn Thị Minh Khai, Đà Lạt Việt Nam
+      0.4 km từ Xuan Huong Lake
+  - text: |-
+      Sau đây là một số khách sạn gần Hồ Xuân Hương bạn có thể tham khảo cho chuyến đi của mình
+      - Khách sạn Du Parc Đà Lạt
+      Địa chỉ: 15 Trần Phú, phường 3, Đà Lạt 8463 Việt Nam
+      0.4 km từ Xuan Huong Lake
+      - Khách sạn Mường Thanh Holiday Đà Lạt
+      Địa chỉ:  42, Phan Boi Chau Str., Đà Lạt 670000 Việt Nam
+      0.4 km từ Xuan Huong Lake
+      - Park Hotel Dalat
+      Địa chỉ: 19 Lê Đại Hành Phường 3, Đà Lạt Việt Nam
+      0.3 km từ Xuan Huong Lake
   utter_homestaynearxuanhuonglake:
-  - text: |- 
-      homestay gần hồ xuân hương
+  - text: |-
+      Một số gợi ý Homestay gần Hồ Xuân Hương cho bạn
+      - Suri’s House - Homestay Đà Lạt gần Hồ Xuân Hương cực xinh 
+      Địa chỉ: 14/2 Bùi Thị Xuân, Phường 2, TP Đà Lạt, tỉnh Lâm Đồng
+      0.3 km từ Hồ Xuân Hương
+      - Lemongrass Homestay
+      Địa chỉ: 83/2 Phan Đình Phùng, phường 2, Tp Đà Lạt, tỉnh Lâm Đồng
+      1 km từ Hồ Xuân Hương
+      - Misty Forest House
+      Địa chỉ: 50 Thủ Khoa Huân, phường 1, Tp Đà Lạt, tỉnh Lâm Đồng
+      1.3 km từ Hồ Xuân Hương
+  - text: |-
+      Sau đây là một số Homestay cực xinh gần Hồ Xuân Hương
+      - Second House - Homestay Đà Lạt 
+      Địa chỉ: Số 8 Hồ Tùng Mậu, Phường 3, Phường 10, TP Đà Lạt, Lâm Đồng
+      0.5 km từ Hồ Xuân Hương
+      - DaLat 1900s Homestay
+      Địa chỉ: 19C/41 Hà Huy Tập, Phường 3, TP Đà Lạt, Lâm Đồng
+      1.3km từ Hồ Xuân Hương
+      - Minn’s House - Homestay Đà Lạt
+      Địa chỉ: 91/14 Phan Bội Châu, Phường 1, TP Đà Lạt, Lâm Đồng
+      0.5 km từ Hồ Xuân Hương
   utter_accommodationnearxuanhuonglake:
+  - text: |-
+      Những nơi ở gần Hồ Xuân Hương
+      - Nhà nghỉ Tuấn An 
+      - Smile Hostel & Coffee 
+      - Spider Hostel Đà Lạt 
+      - Calmette Hostel
   - text: |- 
-      nơi ở gần hồ xuân hương
+      Những nơi lưu trú gần Hồ Xuân Hương cho bạn tham khảo
+      - Dalat Happy Hostel
+      - GoGo Dalat Hostel
+      - Minh Ánh Hostel Đà Lạt
+      - Nhật Anh Hostel
   utter_hotelnearvalleylove:
   - text: |- 
       khách sạn gần thung lũng tình yêu
@@ -382,7 +430,7 @@ responses:
   - text: |- 
       khách sạn gần vườn hoa
   utter_homestaynearflowerpark:
-  - text: - 
+  - text: |-
       homestay gần vườn hoa
   utter_accommodationnearflowerpark:
   - text: |- 
